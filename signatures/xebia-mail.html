@@ -5,9 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Email template Xebia</title>
 <style>
-	a#white-link {color:#fff;}
-	a#white-link:hover {color:#ffcc00;}
-	a#white-link:visited {color:#fff;}
+	.lien a{
+		color:#999999; text-decoration: none; border: none;
+	}
+	.lien a:visited {
+		color:#999999; text-decoration: none;
+	}
+	.lien a:hover, .lien a:active {
+		color:#424661; text-decoration: underline;
+	}
+	#lien-phone a{
+		color:#424661; text-decoration: none; border: none;
+	}
+	#lien-phone a:visited {
+		color:#999999; text-decoration: none;
+	}
+	#lien-phone a:hover, #lien-phone a:active {
+		color:#424661; text-decoration: underline;
+	}
 </style>
 </head>
 <body>
@@ -22,7 +37,7 @@
 						<br><span style="font-size: 13px; font-style: italic; color: #999999;">Fonction</span>
 						<br>
 						<br>
-						<span style="font-size: 15px; color: #424661;">+33 (0)0 00 00 00 00</span></p>
+						<span style="font-size: 15px;" id="lien-phone">+33 (0)0 00 00 00 00</span></p>
 						<p style="margin-top: 0; width: 140px; border-style: solid; border-width: 4px 0 0 0; border-top-color: #C7B299;"></p>
 						<p style="font-size: 14px; padding-top: 5px;">156 Boulevard Haussmann<br>75008 Paris, France</p>
 					</td>
@@ -31,8 +46,7 @@
 					<td bgcolor="424661" style="margin: 0; padding: 0; width: 100%;">
 						<table width="100%"  align="center" cellpadding="0" cellspacing="0" >
 							<tr>
-								<td width="50%" style=" padding: 0 10px 0 15px;"><a id="white-link" href="http:xebia.fr">xebia.fr</a></td>
-								<td width="50%" style="text-align: right;"><img src="http://newsletters.xebia.fr/signatures/paris.png" width="200" height="61" alt="Xebia" style="border: 0;"/></td>
+								<td style="padding: 0 10px 0 15px; text-align: right;"><img src="http://newsletters.xebia.fr/signatures/paris.png" width="200" height="61" alt="Xebia" style="border: 0;"/></td>
 							</tr>
 						</table>
 					</td>
@@ -42,7 +56,14 @@
                     <br>
 					<span style="font-size: 10px; color: #CCCCCC; text-align:left; letter-spacing: 1.8px">SOFTWARE DEVELOPMENT<strong style="color:#FFFFFF;">&nbsp;DONE RIGHT</strong></span></td>
 				</tr>
+				<tr>
+					<td style="padding: 0 0 6px 0; width: 100%; font-size: 14px; padding-top: 5px;"><p class="lien"><a href="http://xebia.fr/">Xebia</a> • <a href="http://blog.xebia.fr/">Blog</a> • <a href="http://vismavie.xebia.fr/">Vis Ma Vie</a> • <a href="http://xebia.tv/">Xebia TV</a> • <a href="http://training.xebia.fr/">Xebia Training</a> • <a href="http://studio.xebia.fr/">Xebia Studio</a> • <a href="http://datafactory.xebia.fr/">Xebia Data Factory</a> • <span class="lien"><a href="http://mobile.xebia.fr/">Xebia Mobile</a></span></p></td>
+				</tr>
+				<tr>
+					<td style="padding: 0; width: 100%;"><img style="max-width: 100%; height: auto;" src="http://newsletters.xebia.fr/signatures/container.gif" alt="Xebia" style="border: 0;"/></td>
+				</tr>
 			</table>
+
 		</td>
 	</tr>
 </table>
